@@ -1,0 +1,49 @@
+﻿@charset "utf-8";
+section#d05{height:2160px;}
+	
+	section#d05 div.leftNumber{/*top:0;*/ top:200px; opacity:0;}
+	section#d05 div.titleText{/*top:0;*/ top:200px; opacity:0;}
+	
+section#d05 ul.dF
+{position:absolute;
+width:761.2px; /*js*/ opacity:0;}
+	section#d05 ul.dFLeft
+	{left:380.6px; /*top:408px;*/ top:800px;}
+	section#d05 ul.dFRight
+	{left:1141.8px; /*top:512px;*/ top:800px;}
+	/**/
+	section#d05 ul.dF li
+	{margin-bottom:104px; position:relative; background-color:#656565;
+	width: 576px; height:390px; cursor:pointer;
+	/*opacity:0;*/}
+	
+	section#d05 ul.dF li>div
+	{position:absolute; top:0; left:0;
+	width:576px; height:390px; /*outline:1px solid red;*/
+	/*box-shadow:-5px -5px 15px rgba(0,0,0,0.5);*/}
+			section#d05 ul.dF li>div.on
+			{box-shadow:-5px -5px 15px rgba(0,0,0,0.5);}
+			
+			
+		section#d05 ul.dF li>div img
+		{position:absolute; top:0; left:0; z-index:3;}
+		section#d05 ul.dF li>div p.dBlack
+		{width:576px; height:390px; position:absolute; top:0; left:0;
+		background:linear-gradient(to bottom,transparent,rgba(0,0,0,0.3),rgba(0,0,0,0.5));
+		z-index:5;}
+		section#d05 ul.dF li>div p.dOrange
+		{width:576px; height:390px; position:absolute; top:0; left:0;
+		background-color:rgba(255,132,0,0.5); z-index:4;
+		opacity:0;}
+			section#d05 ul.dF li>div div
+			{position:absolute;width:543px; bottom:33px; left:33px;
+			z-index:6; box-sizing:border-box;}
+				section#d05 ul.dF li>div div span.dFsmall
+				{font-size:10px; letter-spacing:13px; opacity:0.9;}
+				section#d05 ul.dF li>div p.dFtitle
+				{color:#ff8400; font-size:42px; font-weight:700;
+				padding:6px 0;}
+				section#d05 ul.dF li>div p.dFtext
+				{font-size:14px; line-height:160%;}
+					section#d05 ul.dF li>div p.dFtext2
+					{display:none;}/*slideDown*/

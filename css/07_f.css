@@ -1,0 +1,117 @@
+﻿@charset "utf-8";
+section#f07{height:2110px; /*outline:1px solid orange;*/}
+	
+	section#f07 div.fImg
+	{left:450px; position:absolute; top:476px; z-index:10;}
+		section#f07 div.fImg img.on
+		{animation: rott 30s linear infinite; }
+			@keyframes rott
+			{
+				0%{transform:rotate(0deg);}
+				100%{transform:rotate(360deg);}
+			}
+		section#f07 div.fImg div.smallText
+		{font-family:'Slabo 27px'; font-size:12px; width:100px; height:108px;
+		position:absolute; /*outline:1px solid orange;*/ z-index:10;
+		right:50px; top:-90px;}
+			section#f07 div.fImg div.smallText span
+			{display:block; background-color:#fff;
+			width:1px; height:78px; position:absolute;
+			left:0; bottom:0;}
+			section#f07 div.fImg div.smallText p
+			{position:absolute;
+			left:30px; top:0;}
+
+section#f07 article.fTitle
+{position:absolute; top:1055px; z-index:11; /*outline:1px solid orange;*/
+width:100%; height:465px;}
+	section#f07 article.fTitle div.fSmall
+	{font-size:12px; letter-spacing:13px; opacity:0.6; /*outline:1px solid orange;*/
+	position:absolute; left:380.6px; width:380.6px;
+	top:-17px;}
+	section#f07 article.fTitle>p
+	{position:absolute; left:380.6px; width:800px;
+	top:280px; color:#aaa; font-size:18px; line-height:36px;}
+	section#f07 article.fTitle div.sendMail
+	{position:absolute; left:380.6px; width:380.6px; height:49px;
+	top:416px;}
+		section#f07 article.fTitle div.sendMail input[type=text]
+		{height:49px; width:100%; box-sizing:border-box; padding-left:33px;
+		border-radius:25px; border:0;}
+		section#f07 article.fTitle div.sendMail input[type=button]
+		{height:49px; width:125px; position:absolute; right:0; top:0;
+		border:0; border-radius:25px; cursor:pointer; background-color:#ff8400;
+		line-height:49px;
+		font-family:'Anton'; font-size:13px;}
+	section#f07 article.fTitle div.mailME
+	{position:absolute; bottom:0; left:1141.8px; /*outline:1px solid orange;*/
+	width:666.05px; height:111px;}
+		section#f07 article.fTitle div.mailME a
+		{font-family:'Slabo 27px'; color:#656565; font-size:79px;
+		transition:all 0.3s;}
+		section#f07 article.fTitle div.mailME a>span{color:#fff;}
+		section#f07 article.fTitle div.mailME a span.whiteBar
+		{display:block; height:10px; width:280px; background-color:#fff;
+		position:absolute; bottom:0;}
+			section#f07 article.fTitle div.mailME a:hover
+			{color:#fff;}
+			
+/*-----------------------*/
+
+article.fClients
+{position:absolute; /*outline:1px solid blue;*/ left:380.6px; height:590px; bottom:0;
+width:100%;}
+
+	article.fClients div.smallText
+	{font-family:'Slabo 27px'; font-size:12px; width:226px; height:139px; position:absolute; /*outline:1px solid orange;*/  z-index:10; top:0; left:-196px;}
+		article.fClients div.smallText span
+		{display:block; background-color:#fff;
+		width:60px; height:1px; position:absolute;
+		right:0; top:50%;}
+		article.fClients div.smallText p
+		{position:absolute;
+		left:0px; top:43%;}
+		
+	article.fClients div.ourC
+	{position:absolute; top:139px; /*outline:1px solid #fff;*/ width:100%;}
+		article.fClients div.ourC ul
+		{width:100%; position:relatvie; clear:both;}
+		article.fClients div.ourC ul li
+		{width:380.6px; height:113px; float:left; opacity:0.5;
+		transition:all 0.3s;}
+			article.fClients div.ourC ul li:hover
+			{opacity:1;}
+	
+/*----------------------------이미지들 ---------------*/
+
+section#f07 img.fFloat{position:absolute; z-index:1; opacity:0;}
+	
+	section#f07 img.fFloatR1{right:0;  top:200px; transition:all 2s;}
+		section#f07 img.fFloatR1.on{top:-35px; opacity:1; }
+	
+	section#f07 img.fFloatR2{right:238px;  top:600px; transition:all 6s; }
+		section#f07 img.fFloatR2.on{top:343px; opacity:1; }
+	
+	section#f07 img.fFloatR3{right:192px; top:400px;  transition:all 7s; }
+		section#f07 img.fFloatR3.on{top:732px; opacity:1; }
+	
+	section#f07 img.fFloatR4{right:528px; top:900px;  transition:all 9s; }
+		section#f07 img.fFloatR4.on{top:1252px; opacity:1; }
+	
+	section#f07 img.fFloatR5{right:57px;  top:1000px; transition:all 10s; }
+		section#f07 img.fFloatR5.on{top:1574px;  opacity:1;  }
+	
+	
+	section#f07 img.fFloatL1{left:263px; top:400px; transition:all 4s;}
+		section#f07 img.fFloatL1.on{top:216px; opacity:1; }
+	
+	section#f07 img.fFloatL2{left:220px;  top:300px; transition:all 8s;}
+		section#f07 img.fFloatL2.on{top:755px; opacity:1; }
+	
+	section#f07 img.fFloatL3{left:0px; top:800px;  transition:all 9s;}
+		section#f07 img.fFloatL3.on{top:1093px; opacity:1; }
+	
+	section#f07 img.fFloatC{left:50%;  top:100px; transition:all 5s;}
+		section#f07 img.fFloatC.on{top:300px; opacity:1; }
+	
+		

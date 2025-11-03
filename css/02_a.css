@@ -1,0 +1,42 @@
+﻿@charset "utf-8";
+section#a02{height:665px;}
+section#a02>article:nth-child(1)
+{position:absolute; left:-951.5px; bottom:0px;
+width:951.5px; /*js로 맞춰줘야 할듯 -_-*/
+height:528px; box-shadow:5px 5px 15px rgba(0,0,0,0.5);
+background-image:url('../img/s02.jpg'); background-repeat:none;
+background-size:cover; cursor:pointer; opacity:0;}
+	
+	section#a02>article:nth-child(1) div:nth-child(1)
+	{width:100%; height:100%; overflow:hidden;
+	position:absolute; top:0; left:0; opacity:0;
+	box-shadow:0px 0px 15px rgba(0,0,0,0.5);}
+	
+	
+	section#a02 div.smallText
+	{font-family:'Slabo 27px'; font-size:12px; width:170px; height:30px;
+	position:absolute; /*outline:1px solid orange;*/}
+		section#a02 div.smallText span
+		{display:block; background-color:#fff;
+		width:78px; height:1px; position:absolute;
+		left:0; top:0;}
+		section#a02 div.smallText p
+		{position:absolute;
+		left:98px;}
+		
+	
+	section#a02 div.smallText
+	{right:-128px; bottom:0;}
+	
+/*오른쪽 영역*/
+	section#a02>article:nth-child(2)
+	{position:absolute; /*outline:1px solid orange;*/ height:510px; top:-50px;
+	right:0; width:761.2px; /*js로 조정*/ 
+	}
+	
+		section#a02>article:nth-child(2)>div:nth-child(1)
+		{color:#a1a1a1; font-family:'Slabo 27px'; font-size:60px;
+		word-spacing:-1px; line-height:120%;}
+	
+	section#a02 div.textArea
+	{position:absolute; top:270px; opacity:0; right:-100px;}

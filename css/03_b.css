@@ -1,0 +1,57 @@
+﻿@charset "utf-8";
+
+
+	div.leftNumber
+	{position:absolute;
+	left:190.3px; color:#a1a1a1; font-family:'Slabo 27px'; font-size:36px;
+	}
+	div.titleText
+	{position:absolute; font-family:'Anton';
+	font-size:116px;
+	left:380.6px;}
+		div.titleText p{margin-top:-20px; margin-bottom:-65px;}
+		div.titleText p span{color:#ff8400;}
+	
+	
+/**/
+section#b03
+{height:1098px;}
+	section#b03 div.leftNumber,section#b03 div.titleText
+	{/*top:200px;*/ opacity:0;}
+	section#b03 div.textArea
+	{position:absolute; /*top:600px;*/ bottom:0; opacity:0;}
+		section#b03 div.textAreaL
+		{left:380.6px;}
+		section#b03 div.textAreaR
+		{left:761.2px;}
+	section#b03 button
+	{left:380.6px; /*top:792px;*/ top:1000px; opacity:0;} 
+	
+section#b03 article
+{position:absolute; /*left:1141.8px;*/ right:-766px; top:392px; width:766px; /*js*/
+height:466px; background-image:url('../img/s03_a.jpg'); background-size:cover;
+background-repeat:no-repeat;
+cursor:pointer;
+opacity:0;
+}
+section#b03 article>div
+{width:766px; height:466px; position:absolute; left:0; top:0;
+box-shadow:0px 0px 15px rgba(0,0,0,1);}
+	section#b03 article>div img
+	{position:absolute; top:0; left:0;}
+		section#b03 article>div img:nth-child(1)
+		{z-index:3;}
+		section#b03 article>div img:nth-child(2)
+		{z-index:4; opacity:0;}
+
+		section#b03 div.smallText
+	{font-family:'Slabo 27px'; font-size:12px; width:100px; height:108px;
+	position:absolute; /*outline:1px solid orange;*/ z-index:10;
+	left:19px; bottom:-59px;}
+		section#b03 div.smallText span
+		{display:block; background-color:#fff;
+		width:1px; height:78px; position:absolute;
+		left:0; top:0;}
+		section#b03 div.smallText p
+		{position:absolute;
+		left:30px; bottom:0;}
